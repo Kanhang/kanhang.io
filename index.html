@@ -7,25 +7,8 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Kanhang Li Personal Website</title>
+	<title>Kanhang Li</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FreeHTML5.co" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FreeHTML5.co" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -72,8 +55,6 @@
 						<li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
 						<li><a href="#" data-nav-section="services"><span>Services</span></a></li>
 						<li><a href="#" data-nav-section="explore"><span>Project</span></a></li>
-						<li><a href="#" data-nav-section="pricing"><span>Pricing</span></a></li>
-						<li><a href="#" data-nav-section="team"><span>Team</span></a></li>
 					</ul>
 				</div>
 			</nav>
@@ -271,7 +252,7 @@
 			<div class="row">
 				<div class="col-md-4 to-animate">
 					<h3 class="section-title">About Me</h3>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+					<p>I am opening for all front end positions, please kindly send me a message through my email, or using the message sender on the right, or call me.</p>
 				
 				</div>
 
@@ -280,14 +261,7 @@
 					<ul class="contact-info">
 						<li><i class="icon-phone"></i>+1 (848)391-3788</li>
 						<li><i class="icon-envelope"></i>likanhang@gmail.com</li>
-						<li><i class="icon-globe2"></i>www.yoursite.com</li>
-					</ul>
-					<h3 class="section-title">Connect with Us</h3>
-					<ul class="social-media">
-						<li><a href="#" class="facebook"><i class="icon-facebook"></i></a></li>
-						<li><a href="#" class="twitter"><i class="icon-twitter"></i></a></li>
-						<li><a href="#" class="dribbble"><i class="icon-dribbble"></i></a></li>
-						<li><a href="#" class="github"><i class="icon-github-alt"></i></a></li>
+						<li><i class="icon-globe2"></i>https://kanhang.github.io/kanhang.io/</li>
 					</ul>
 				</div>
 				<div class="col-md-4 to-animate">
@@ -306,7 +280,7 @@
 							<textarea class="form-control" id="message" rows="7" placeholder="Message"></textarea>
 						</div>
 						<div class="form-group">
-							<input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Send Message">
+							<input id="btn-submit" class="btn btn-send-message btn-md" value="Send Message" onclick="sendMessage()">
 						</div>
 					</form>
 				</div>
@@ -331,7 +305,12 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 	<script src="js/video.js"></script>
-
+	
+	<script type="text/javascript"
+	src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+	</script>
+	<script src="js/sendMessage.js"></script>
+	
 
 	</body>
 </html>
