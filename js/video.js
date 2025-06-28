@@ -2,6 +2,7 @@
 let count = 1;
 const airplaneVideo = document.getElementById('airplaneVideo');
 const blockchainVideo = document.getElementById('blockchainVideo');
+const globeVideo = document.getElementById('spinningGlobe');
 const src = document.getElementById('videoSrc');
 
 function videoCount() {
@@ -40,7 +41,7 @@ function loadVideo(video) {
 
 loadVideo(airplaneVideo);
 loadVideo(blockchainVideo);
-
+loadVideo(globeVideo);
 // airplaneVideo.addEventListener("play", () => {
 //     airplaneVideo.classList.add("playing");
 //   });
